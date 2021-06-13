@@ -22,11 +22,12 @@ body {
 }
 .header-wraper {
 	position: fixed;
+	background-color: white;
 	top: 0;
 	left: 0;
 	width: 1440px;
 	z-index: 100;
-    height: 50px;
+  height: 50px;
 }
 
 .chrisimage {
@@ -57,7 +58,7 @@ body {
 }
 .divbox {
 	  background-color: #FFFFFF;
-    margin-right: 40px;
+    margin-right: 20px;
     width: 360px;
     height: 350px;
     vertical-align: top;
@@ -116,7 +117,7 @@ body {
 }
 .left-side {
 	vertical-align: top;
-	margin-right: 40px;
+	width: 760px;
 	display: inline-block;
 }
 .bridge {
@@ -128,10 +129,10 @@ body {
 	margin-bottom: 33px;
 }
 .right-side {
+	width: 360px;
 	display: inline-block;
 }
 .elephant {
-	margin-left: 40px;
 	margin-bottom: 100px;
 	width: 360px;
 	height: 210px;
@@ -146,8 +147,30 @@ body {
 	height: 210px;
 	margin-bottom: 99px;
 }
-/*.footer {
-	width: 1440px;
+.footer {
+	width: 100%;
 	height: 200px;
 	background-color: #A6ADB4;
-}*/
+	
+}
+.footerwraper{
+    width: 1160px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footerlogo {
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+  padding-top: 56px;
+  padding-bottom: 129px;
+  vertical-align: top;
+  margin-right: 90px;
+}
+.footerul {
+	display: inline-block;
+	vertical-align: top;
+  padding-top: 56px;
+}
